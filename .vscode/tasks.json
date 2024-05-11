@@ -8,8 +8,9 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "shared"
             },
+            "problemMatcher": []
         },
         {
             "label": "arc_dl",
@@ -18,8 +19,8 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
-            },
+                "panel": "shared"
+            }
         },
         {
             "label": "other_dl",
@@ -28,8 +29,8 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
-            },
+                "panel": "shared"
+            }
         },
         {
             "label": "test",
@@ -41,8 +42,8 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
-            },
+                "panel": "shared"
+            }
         },
         {
             "label": "submit",
@@ -51,7 +52,7 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "shared"
             }
         },
         {
@@ -61,11 +62,11 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "shared"
             },
             "dependsOn": [
                 "compile"
-            ],
+            ]
         },
         {
             "label": "execute with input.txt",
@@ -74,11 +75,11 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "shared"
             },
             "dependsOn": [
                 "compile"
-            ],
+            ]
         },
         {
             "label": "compile",
@@ -105,14 +106,14 @@
             "presentation": {
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "shared"
             }
         },
         {
             "label": "test_basic",
             "type": "shell",
-            "command": "oj t -d ./tests/",
-        },
+            "command": "oj t -d ./tests/"
+        }
     ],
     "inputs": [
         {
